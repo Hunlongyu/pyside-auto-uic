@@ -22,9 +22,6 @@ class Ui_Form(object):
         if not Form.objectName():
             Form.setObjectName(u"Form")
         Form.resize(400, 300)
-        self.pushButton = QPushButton(Form)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(160, 110, 75, 23))
         self.pushButton_2 = QPushButton(Form)
         self.pushButton_2.setObjectName(u"pushButton_2")
         self.pushButton_2.setGeometry(QRect(160, 150, 75, 23))
@@ -42,7 +39,6 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
-        self.pushButton.setText(QCoreApplication.translate("Form", u"PushButton", None))
         self.pushButton_2.setText(QCoreApplication.translate("Form", u"PushButton", None))
         self.pushButton_3.setText(QCoreApplication.translate("Form", u"PushButton", None))
         self.pushButton_4.setText(QCoreApplication.translate("Form", u"PushButton", None))
