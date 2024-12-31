@@ -22,6 +22,7 @@ exe = EXE(
     a.datas,
     [],
     name='Pyside 开发助手 - UIC',
+    version=None,
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'test.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.8.0
+## Created by: Qt User Interface Compiler version 6.8.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -22,15 +22,15 @@ class Ui_Form(object):
         if not Form.objectName():
             Form.setObjectName(u"Form")
         Form.resize(400, 300)
-        self.pushButton_2 = QPushButton(Form)
-        self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setGeometry(QRect(160, 150, 75, 23))
-        self.pushButton_3 = QPushButton(Form)
-        self.pushButton_3.setObjectName(u"pushButton_3")
-        self.pushButton_3.setGeometry(QRect(160, 190, 75, 23))
         self.pushButton_4 = QPushButton(Form)
         self.pushButton_4.setObjectName(u"pushButton_4")
         self.pushButton_4.setGeometry(QRect(160, 230, 75, 23))
+        self.pushButton_5 = QPushButton(Form)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(160, 130, 75, 23))
+        self.pushButton_7 = QPushButton(Form)
+        self.pushButton_7.setObjectName(u"pushButton_7")
+        self.pushButton_7.setGeometry(QRect(160, 50, 75, 23))
 
         self.retranslateUi(Form)
 
@@ -39,8 +39,8 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
-        self.pushButton_2.setText(QCoreApplication.translate("Form", u"PushButton", None))
-        self.pushButton_3.setText(QCoreApplication.translate("Form", u"PushButton", None))
         self.pushButton_4.setText(QCoreApplication.translate("Form", u"PushButton", None))
+        self.pushButton_5.setText(QCoreApplication.translate("Form", u"PushButton", None))
+        self.pushButton_7.setText(QCoreApplication.translate("Form", u"PushButton", None))
     # retranslateUi
 
